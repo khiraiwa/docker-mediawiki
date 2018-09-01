@@ -23,7 +23,7 @@ jobs:
     machine:
       enabled: true
     environment:
-      - DOCKER_REPO: khiraiwa/docker-nginx
+      - DOCKER_REPO: khiraiwa/docker-mediawiki
     steps:
       - checkout
       - run:
